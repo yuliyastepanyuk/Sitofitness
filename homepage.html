@@ -9,12 +9,15 @@
         .bg {
             background-color:#343A40!important
         }
+        .custom-row {
+            flex-shrink: none !important;
+        }
     </style>
   </head>
   <body>
     <header>
-        <div class="container-fluid">
-            <div class="row flex-nowrap">
+        <div class="">
+            <div class="d-flex justify-content-between">
                 <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg">
                     <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
                         <a href="/" class="d-flex justify-content-center pb-3 mb-md-0 me-md-auto ms-md-auto text-white text-decoration-none">
@@ -60,7 +63,7 @@
                     </div>
                 </div>
                 <div>
-                <ul class="nav justify-content-end">
+                <ul class="nav">
                     <li class="nav-item">
                       <a class="nav-link active" aria-current="page" href="#">Active</a>
                     </li>
